@@ -11,12 +11,12 @@
 
 <style scoped>
 .container {
-    height: 100vh;
+    height: 100px;
 }
 
 .title {
     text-align: center;
     color: red;
-    padding-top: 0;
+    margin: 0;
 }
 </style>
