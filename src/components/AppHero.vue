@@ -3,7 +3,7 @@
 <template>
 
     <div class="jumbotron d-flex">
-        <h2 class="text">Jumbotron con Vite!</h2>
+        <h2 class="text_title">Jumbotron con Vite!</h2>
         <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, perferendis aperiam hic rerum
             error laborum nihil animi veritatis non optio iusto numquam nostrum deleniti dicta tempora saepe.
             Blanditiis, accusamus omnis?</p>
@@ -21,13 +21,19 @@
     background-size: cover;
 }
 
-.jumbotron text {
+.text_title {
+    color: red;
+}
+
+.text {
     text-align: center;
+    color: white;
 }
 
 .btn {
     border-radius: 25%;
     background-color: blue;
+    color: white;
 }
 
 .d-flex {
